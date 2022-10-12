@@ -1,0 +1,19 @@
+#brandVisual { position: relative; width: 100%; overflow: hidden; height: 700px; } 
+#brandVisual .visual_slide li a { display: block; text-indent: -99999px; } 
+#brandVisual .visual_slide { width: 100%; height: 100%; } 
+#brandVisual .visual_slide li { position: absolute; background-repeat: no-repeat; background-position: 50% 0; width: 100%; height: 100%; background-size: cover; } 
+#brandVisual .visual_slide li.visual_0 { background-image: url(../VI_Assets/fall_picnic.png); } 
+#brandVisual .visual_slide li.visual_1 { background-image: url(../VI_Assets/slide1.PNG); } 
+#brandVisual .visual_slide li.visual_2 { background-image: url(../VI_Assets/slide2.png); } 
+
+/* controls */
+.btnImg { position: relative; width: 90%; margin: auto; top: -400px; } 
+.btnImg img { width: 30px; } 
+.btnImg .prev { position: absolute; left: 100px; } 
+.btnImg .next { position: absolute; right: 100px; } 
+
+/* pager */
+.hidden{display:block; overflow: hidden; width:0; height:0; line-height: 0; text-indent: -99999px;}
+#brandVisual .buttonList:after { content: ""; display: block; clear: both; } 
+#brandVisual .buttonList > li {background: url(../images/btnVisual.png) no-repeat 0 -16px;width: 16px;height: 18px; overflow:hidden; position:relative; top:-200px; left:50%; float:left; margin:0 8px; cursor:pointer;} 
+#brandVisual .buttonList > li.on{background-position: 0 0;}

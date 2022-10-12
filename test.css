@@ -1,0 +1,100 @@
+.main-event {
+  overflow: hidden;
+}
+.event-slide-wrap {
+  float: left;
+  width: 50%;
+}
+.event-slide-wrap.box01 {
+  overflow: hidden;
+}
+.event-slide {
+  float: right;
+  padding: 70px 50px 70px 0px;
+  width: 600px;
+  overflow: hidden;
+}
+.event-slide-title {
+  position: relative;
+  width: 200px;
+  float: left;
+}
+
+.event-slide-title h5 {
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 1.3em;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.event-slide-title h5 b {
+  font-weight: 400;
+  color: #000;
+}
+
+.event-slide-title p {
+  font-size: 14px;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+.event-btn {
+  position: absolute;
+  left: 0;
+  top: 100px;
+}
+
+.event-btn a {
+  margin-right: 14px;
+}
+
+.event-slide-title .more-btn {
+  position: absolute;
+  left: 0;
+  top: 170px;
+}
+
+.slide_wrapper {
+  width: calc(100% - 200px);
+  float: left;
+}
+
+.slide-container {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+}
+
+.slides {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  transform: translate3d(0px, 0, 0);
+}
+
+.notification {
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  opacity: 0;
+  z-index: -1000;
+}
+
+.slides li{
+    background-image: url(./VI_Assets/sl\
+    );
+    width: 160px;
+    margin-right: 30px;
+    background-size: cover;
+    cursor: pointer;
+    padding-top: 64%;
+}
+
