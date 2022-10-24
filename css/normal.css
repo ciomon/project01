@@ -24,6 +24,7 @@ p {
   letter-spacing: -0.02em;
   position: relative;
   display: block;
+  background: #fff;
 }
 
 #wrap {
@@ -558,6 +559,9 @@ nav .gnb li a {
   width: 48%;
   height: 364px;
 }
+
+.box01{background: #fff;}
+.box2{background: #f7f7f7;}
 
 .event-slide-wrap .event-slide {
   float: right;
