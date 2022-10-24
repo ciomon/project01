@@ -401,6 +401,7 @@ nav .gnb li a {
 
 .notice-list li:active {
   position: relative;
+  color: #e84040;
 }
 
 .notice-list li:active::before {
@@ -412,6 +413,7 @@ nav .gnb li a {
   width: 4px;
   height: 4px;
   border-radius: 50%;
+  background-color: #e84040;
 }
 
 .notice-cont {
@@ -547,7 +549,7 @@ nav .gnb li a {
   overflow: hidden;
   width: 1903px;
   height: 364px;
-  background: gold;
+
 }
 
 .event-slide-wrap {
@@ -607,6 +609,17 @@ nav .gnb li a {
   left: 0;
   top: 170px;
 }
+
+.slide{
+  margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+
 
 .slides.animated {
   transition: 0.5s ease-out;
@@ -878,11 +891,9 @@ nav .gnb li a {
 .sitelink-wrap {
   position: relative;
   padding: 10px 50px;
-  width: 1200px;
+
   height: 58px;
   top: 25px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .sitelink-wrap .slide {
@@ -893,6 +904,12 @@ nav .gnb li a {
   list-style: none;
   padding: 0;
   z-index: 1;
+}
+
+.main-container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .site-btn a {
@@ -1066,4 +1083,10 @@ nav .gnb li a {
 
 .footer-info .footer-container .right-sns option {
   color: #313131;
+}
+
+.markup {
+  width: 250px;
+  float: right;
+  margin-top: 70px;
 }
